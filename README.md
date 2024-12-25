@@ -105,6 +105,35 @@ export function App() {
 }
 ```
 
+### Using inverse variants
+
+To apply the style to the component only when the data attribute is not present, you can add the `-not` prefix before the variant.
+
+```tsx
+<Component className="ui-not-hover:bg-gray-50" />
+```
+
+### Using group variants
+
+You can use add `-group` before the variant to apply the style to the component if its parent has the particular data attribute present.
+
+```tsx
+<ParentComponent>
+  <ChildComponent className="ui-group-hover:bg-gray-50" />
+</ParentComponent>
+```
+
+### Using peer variants
+
+You can use add `-peer` before the variant to apply the style to the component if its sibling has the particular data attribute present.
+
+```tsx
+<ParentComponent>
+  <ChildComponent className="ui-peer-hover:bg-gray-50" />
+  <ChildComponent className="ui-hover:bg-gray-50" />
+</ParentComponent>
+```
+
 ## Variants and their equivalent data attributes
 
 |  Variant                  | Data attributes                            |
