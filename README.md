@@ -195,16 +195,16 @@ export function App() {
 | tour-highlighted        | data-tour-highlighted                   |
 | scroll-lock             | data-scroll-lock                        |
 | inert                   | data-inert                              |
-| scope-<value>           | data-scope="<value>"                    |
-| part-<value>            | data-part="<value>"                     |
-| value-<value>           | data-value="<value>"                    |
-| valuetext-<value>       | data-valuetext="<value>"                |
-| index-<value>           | data-index="<value>"                    |
-| columns-<value>         | data-columns="<value>"                  |
-| branch-<value>          | data-branch="<value>"                   |
-| depth-<value>           | data-depth="<value>"                    |
-| path-<value>            | data-path="<value>"                     |
-| type-<value>            | data-type="<value>"                     |
+| scope-\<value\>           | data-scope="\<value\>"                    |
+| part-\<value\>            | data-part="\<value\>"                     |
+| value-\<value\>           | data-value="\<value\>"                    |
+| valuetext-\<value\>       | data-valuetext="\<value\>"                |
+| index-\<value\>           | data-index="\<value\>"                    |
+| columns-\<value\>         | data-columns="\<value\>"                  |
+| branch-\<value\>          | data-branch="\<value\>"                   |
+| depth-\<value\>           | data-depth="\<value\>"                    |
+| path-\<value\>            | data-path="\<value\>"                     |
+| type-\<value\>            | data-type="\<value\>"                     |
 
 ## Credits
 
