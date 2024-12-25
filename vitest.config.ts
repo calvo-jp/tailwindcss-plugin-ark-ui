@@ -4,7 +4,7 @@ export default defineConfig({
 	test: {
 		watch: false,
 		globals: true,
-		include: ['src/**/*.{test,spec}.{ts,tsx}'],
+		include: ['src/**/*.{test,spec}.{js,ts}'],
 		environment: 'node',
 		passWithNoTests: true,
 	},
