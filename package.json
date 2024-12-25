@@ -2,7 +2,7 @@
 	"name": "tailwindcss-plugin-ark-ui",
 	"type": "module",
 	"license": "MIT",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"exports": {
 		".": {
 			"import": {
@@ -18,7 +18,9 @@
 			"default": "./package.json"
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"publishConfig": {
 		"access": "public"
 	},
@@ -37,7 +39,11 @@
 		"email": "calvojp92@gmail.com"
 	},
 	"description": "TailwindCSS plugin for Ark UI",
-	"keywords": ["tailwindcss", "ark-ui", "plugin"],
+	"keywords": [
+		"tailwindcss",
+		"ark-ui",
+		"plugin"
+	],
 	"scripts": {
 		"test": "vitest",
 		"lint": "biome lint .",
@@ -68,8 +74,13 @@
 			"release": false
 		},
 		"hooks": {
-			"before:init": ["pnpm lint", "pnpm test"],
-			"after:bump": ["pnpm build"]
+			"before:init": [
+				"pnpm lint",
+				"pnpm test"
+			],
+			"after:bump": [
+				"pnpm build"
+			]
 		}
 	}
 }

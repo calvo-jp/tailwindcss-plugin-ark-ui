@@ -5,7 +5,7 @@ A [TailwindCSS](https://tailwindcss.com/) plugin to style [Ark UI](https://ark-u
 ## Installation
 
 ```bash
-npm install tailwindcss-plugin-ark-ui
+npm install -D tailwindcss-plugin-ark-ui
 ```
 
 ## Usage
