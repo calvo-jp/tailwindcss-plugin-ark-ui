@@ -168,6 +168,9 @@ interface Options {
 	prefix?: string;
 }
 
+/**
+ * @see https://github.com/calvo-jp/tailwindcss-plugin-ark-ui
+ */
 export default plugin.withOptions<Options>((config = {}) => {
 	const prefix = config.prefix ?? 'ui';
 
