@@ -43,9 +43,7 @@
 		"lint": "biome lint .",
 		"format": "biome format --write .",
 		"build": "tsup",
-		"release": "release-it",
-		"prepack": "clean-package",
-		"postpack": "clean-package restore"
+		"release": "release-it"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
