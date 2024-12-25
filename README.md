@@ -115,7 +115,7 @@ To apply the style to the component only when the data attribute is not present,
 
 ### Using group variants
 
-You can use add `-group` before the variant to apply the style to the component if its parent has the particular data attribute present.
+You can add `-group` before the variant to apply the style to the component if its parent has the specific data attribute present.
 
 ```tsx
 <ParentComponent>
@@ -125,7 +125,7 @@ You can use add `-group` before the variant to apply the style to the component 
 
 ### Using peer variants
 
-You can use add `-peer` before the variant to apply the style to the component if its sibling has the particular data attribute present.
+You can add `-peer` before the variant to apply the style to the component if its sibling has the specific data attribute present.
 
 ```tsx
 <ParentComponent>
