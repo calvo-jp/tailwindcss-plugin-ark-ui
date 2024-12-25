@@ -38,8 +38,8 @@ import {Field} from '@ark-ui/react';
 
 export function Component() {
   return (
-    <Field.Root required>
-      <Field.Input class="ui-invalid:border-red-300 ui-readonly:border-gray-200" />
+    <Field.Root>
+      <Field.Input className="ui-invalid:border-red-300 ui-readonly:border-gray-200" />
     </Field.Root>
   );
 }
@@ -118,7 +118,7 @@ To apply the style to the component only when the data attribute is not present,
 You can add `-group` before the variant to apply the style to the component if its parent has the specific data attribute present.
 
 ```tsx
-<ParentComponent>
+<ParentComponent className="group">
   <ChildComponent className="ui-group-hover:bg-gray-50" />
 </ParentComponent>
 ```
@@ -130,7 +130,7 @@ You can add `-peer` before the variant to apply the style to the component if it
 ```tsx
 <ParentComponent>
   <ChildComponent className="ui-peer-hover:bg-gray-50" />
-  <ChildComponent className="ui-hover:bg-gray-50" />
+  <ChildComponent className="peer ui-hover:bg-gray-50" />
 </ParentComponent>
 ```
 
